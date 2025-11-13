@@ -10,7 +10,7 @@ export default function Incrementar() {
     <View style={styles.container}>
       <Text style={styles.title}>Valor atual: {valor}</Text>
       <Button title="Incrementar" onPress={incrementar} />
-      <Button title="Voltar" onPress={() => router.back()} />
+      <Button title="Voltar" onPress={() => router.push("/")} />
     </View>
   );
 }
